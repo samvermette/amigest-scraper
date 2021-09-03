@@ -5,9 +5,10 @@ const request = require('request');
 const auth = require('./auth.js');
 
 var today = new Date(); // download photos for this date and backwards
+//var today = new Date('2020-12-07');
 today.setHours(0,0,0);
 
-var minimumDate = new Date(2019, 08, 01);
+var minimumDate = new Date('2020-07-01');
 
 async function getEntries(fetchDate) {
 	await sleep(1000); // to prevent sending too many simultaneous requests to Amigest API
