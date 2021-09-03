@@ -1,4 +1,9 @@
 # amigest
+
+### What it does:
+
+- Downloads daily photos from Amigest
+- Update metadata tags with entry date and description
  
 ### Instructions:
 
